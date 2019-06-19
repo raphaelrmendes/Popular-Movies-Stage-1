@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo"
+    android:orientation="vertical"
+    tools:context=".filmesDetalhes">
+
+    <ImageView
+        android:id="@+id/capaFilmeDetalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/espacamentoCapasFilme"
+                    android:text="@string/titulo_filme"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+                <TextView
+                    android:id="@+id/tituloFilme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/espacamentoCapasFilme"
+                    android:paddingBottom="@dimen/espacamentoCapasFilme"
+                    android:text="Titulo"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/espacamentoCapasFilme"
+                    android:text="@string/tituloOriginal"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+                <TextView
+                    android:id="@+id/tituloOriginalFilme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/espacamentoCapasFilme"
+                    android:paddingBottom="@dimen/espacamentoCapasFilme"
+                    android:text="Titulo Original"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/espacamentoCapasFilme"
+                    android:text="@string/idioma"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+                <TextView
+                    android:id="@+id/idioma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/espacamentoCapasFilme"
+                    android:paddingBottom="@dimen/espacamentoCapasFilme"
+                    android:text="Idioma"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/espacamentoCapasFilme"
+                    android:text="@string/sinopse"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+                <TextView
+                    android:id="@+id/sinopse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/espacamentoCapasFilme"
+                    android:paddingBottom="@dimen/espacamentoCapasFilme"
+                    android:text="Sinopse"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/espacamentoCapasFilme"
+                    android:text="@string/dataFilme"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+                <TextView
+                    android:id="@+id/data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/espacamentoCapasFilme"
+                    android:paddingBottom="@dimen/espacamentoCapasFilme"
+                    android:text="data"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/espacamentoCapasFilme"
+                    android:text="Nota de avaliação:"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+                <TextView
+                    android:id="@+id/nota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/espacamentoCapasFilme"
+                    android:paddingBottom="@dimen/espacamentoCapasFilme"
+                    android:text="Nota"
+                    android:textColor="@color/corTexto"
+                    android:textSize="@dimen/tamTexto" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

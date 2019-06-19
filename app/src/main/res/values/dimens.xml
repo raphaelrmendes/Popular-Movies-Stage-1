@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="raioArredCapaFilme">12dp</dimen>
+    <dimen name="espacamentoCapasFilme">6dp</dimen>
+    <dimen name="tamTexto">15sp</dimen>
+</resources>

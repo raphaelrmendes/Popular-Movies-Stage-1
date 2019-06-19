@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Filmes Populares ProjUdacity</string>
+    <string name="tituloPadrao">Filme</string>
+    <string name="textoCarregando">carregando…</string>
+    <string name="titulo_filme">Título do Filme:</string>
+    <string name="tituloOriginal">Título Original:</string>
+    <string name="idioma">Idioma:</string>
+    <string name="sinopse">Sinopse:</string>
+    <string name="dataFilme">Data de Lançamento:</string>
+    <string name="ordenamento">Ordenamento</string>
+</resources>
